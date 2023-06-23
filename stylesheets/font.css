@@ -1,7 +1,8 @@
 @font-face {
   font-family: "Pixeloid Mono";
   src: url("../font/PixeloidMono.ttf") format(ttf),
-    url("../font/PixeloidMono.woff") format(woff);
+    url("../font/PixeloidMono.woff") format(woff),
+    url("../font/PixeloidMono.woff2") format(woff2);
   font-weight: normal;
   font-style: normal;
 }
