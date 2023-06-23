@@ -1,0 +1,39 @@
+h1 {
+  font-size: 3vw;
+  line-height: 3.2vw;
+  font-family: "Pixeloid Mono";
+  font-weight: 100;
+  color: #00e600;
+  margin: 0;
+  text-shadow: 0 0 12px #00e600;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 1.8vw;
+  line-height: 3.2vw;
+  font-family: "Pixeloid Mono";
+  font-weight: 100;
+  color: #00e600;
+  margin: 0;
+  text-shadow: 0 0 12px #00e600;
+  text-transform: uppercase;
+}
+h3 {
+  font-size: 1vw;
+  line-height: 1.2vw;
+  font-family: "Pixeloid Mono";
+  font-weight: 100;
+  color: #00e600;
+  margin: 0;
+  text-shadow: 0 0 12px #00e600;
+  text-transform: uppercase;
+}
+p {
+  font-size: 1.5vw;
+  line-height: 1.7vw;
+  font-family: "Pixeloid Mono";
+  color: #00e600;
+  margin: 0;
+  text-shadow: 0 0 12px #00e600;
+  text-transform: uppercase;
+}

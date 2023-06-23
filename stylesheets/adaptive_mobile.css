@@ -1,0 +1,83 @@
+@media all and (max-width: 700px) and (min-width: 320px) and (orientation: portrait) {
+  .page_number_mob_activenot {
+    display: block;
+  }
+  .index_icon_mob {
+    background-color: #00e600;
+    padding: 0vw 8vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    grid-area: M1;
+  }
+  .index_container {
+    grid-template-areas:
+      "M1 M2 M2"
+      "I1 I1 I1 "
+      "I2 I3 I3"
+      "I2 I3 I3"
+      "I4 I4 I4"
+      "I4 I4 I4"
+      "I5 I5 I5"
+      "I5 I5 I5";
+  }
+  .main_container {
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .page_number_mob_activenot {
+    border: 0.5vw solid #00e600;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-area: M2;
+  }
+  .mob_navbar {
+    display: flex;
+    flex-direction: row;
+  }
+  h1 {
+    font-size: 7vw;
+    line-height: 7.2vw;
+  }
+  p {
+    font-size: 4vw;
+    line-height: 4.2vw;
+  }
+  .aboutus_container {
+    grid-template-areas:
+      "M1 M2 M2"
+      "A4 A4 A4 "
+      "A5 A6 A6"
+      "A5 A6 A6"
+      "A7 A7 A7"
+      "A7 A7 A7"
+      "A3 A3 A3"
+      "A3 A3 A3";
+  }
+  .aboutus_wind_1 {
+    display: none;
+  }
+  .aboutus_wind_2 {
+    display: none;
+  }
+  .aboutus_wind_5_content_1 {
+    display: none;
+  }
+  .aboutus_wind_5_content_2 {
+    width: 90%;
+  }
+  .aboutus_wind_6_content_2_1 p {
+    line-height: 5vw;
+  }
+  h3 {
+    font-size: 3vw;
+    line-height: 3.2vw;
+  }
+  .aboutus_wind_6_content_1 {
+    width: 90%;
+  }
+}

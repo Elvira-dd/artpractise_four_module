@@ -1,0 +1,109 @@
+.navigation_container {
+  grid-template-areas:
+    "NB NB NB NB NB NB NB NB"
+    "N1 N1 N1 N2 N2 N3 N3 N3"
+    "N1 N1 N1 N2 N2 N3 N3 N3"
+    "N1 N1 N1 N2 N2 N5 N5 N5"
+    "N1 N1 N1 N2 N2 N5 N5 N5"
+    "N1 N1 N1 N4 N4 N5 N5 N5"
+    "N1 N1 N1 N4 N4 N5 N5 N5"
+    "N1 N1 N1 N4 N4 N5 N5 N5";
+}
+.navig_wind_1 {
+  grid-area: N1;
+  border-top: 0.5vw solid #00e600;
+  border-left: 0.5vw solid #00e600;
+  border-bottom: 0.5vw solid #00e600;
+  background-image: url("../images/space_map.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+.navig_wind_2_content_1 {
+  background-image: url("../images/planet_navig.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  width: 100%;
+  height: 50%;
+}
+.navig_wind_2_content_2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.navig_wind_2 {
+  grid-area: N2;
+  border-top: 0.5vw solid #00e600;
+}
+.navig_wind_3 {
+  grid-area: N3;
+  border-top: 0.5vw solid #00e600;
+  border-right: 0.5vw solid #00e600;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.navig_wind_4 {
+  grid-area: N4;
+  border-bottom: 0.5vw solid #00e600;
+}
+.navig_wind_5 {
+  grid-area: N5;
+  border-right: 0.5vw solid #00e600;
+  border-bottom: 0.5vw solid #00e600;
+  background-image: url("../images/poster_1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.navig_wind_4_content_1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10%;
+}
+.navig_wind_4_content_1 h1 {
+  text-align: center;
+}
+.navig_wind_4_content_2 {
+  display: flex;
+  height: 30%;
+  overflow: hidden;
+  margin-bottom: -10%;
+}
+.navig_wind_3_content_1 {
+  background-image: url("../images/no_entery_icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 100%;
+  width: 30%;
+  margin-right: 2vw;
+}
+.navig_wind_3_content_2 {
+  background-image: url("../images/tornado_icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 100%;
+  width: 30%;
+  margin-right: 2vw;
+}
+.navig_wind_3_content_3 {
+  background-image: url("../images/flowers_icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 100%;
+  width: 30%;
+  margin-right: 2vw;
+}
+
+.navig_wind_3_content_4 {
+  background-image: url("../images/rain_icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 100%;
+  width: 30%;
+}

@@ -1,0 +1,49 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0px 10px;
+  grid-area: NB;
+}
+.navbar_mobile {
+  display: none;
+}
+#index_icon img {
+  width: 3vw;
+  height: 3vw;
+}
+
+#index_icon {
+  width: auto;
+  padding: 0.5vw 5vw;
+}
+#aboutus_icon {
+  width: auto;
+  padding: 0.5vw 5vw;
+}
+#navigation_icon {
+  width: auto;
+  padding: 0.5vw 5vw;
+}
+#services_icon {
+  width: auto;
+  padding: 0.5vw 5vw;
+}
+.active_nav_icon {
+  background-color: #00e500;
+}
+.active_nav_icon h1 {
+  color: #003501;
+}
+@media all and (max-width: 500px) and (min-width: 300px) and (orientation: portrait) {
+  .navbar {
+    display: none;
+  }
+  .navbar_mobile {
+    display: flex;
+  }
+  .index_icon_mob {
+    width: auto p;
+  }
+}

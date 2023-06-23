@@ -1,0 +1,85 @@
+.services_container {
+  grid-template-areas:
+    "NB NB NB NB NB NB NB NB"
+    "S1 S1 S1 S1 S2 S2 S2 S2"
+    "S1 S1 S1 S1 S2 S2 S2 S2"
+    "S1 S1 S1 S1 S2 S2 S2 S2"
+    "S1 S1 S1 S1 S2 S2 S2 S2"
+    "S1 S1 S1 S1 S2 S2 S2 S2"
+    "S3 S3 S3 S3 S3 S3 S3 S3 "
+    "S3 S3 S3 S3 S3 S3 S3 S3 ";
+}
+.services_wind_1 {
+  grid-area: S1;
+  border-top: 0.5vw solid #00e600;
+  border-left: 0.5vw solid #00e600;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.services_wind_1 > img {
+  height: 80%;
+  width: auto;
+}
+.services_wind_2 > img {
+  height: 80%;
+  width: auto;
+}
+.services_wind_2 {
+  grid-area: S2;
+  border-right: 0.5vw solid #00e600;
+  border-top: 0.5vw solid #00e600;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.services_wind_3 {
+  grid-area: S3;
+  border-left: 0.5vw solid #00e600;
+  border-bottom: 0.5vw solid #00e600;
+  border-right: 0.5vw solid #00e600;
+}
+.services_wind_3_content_1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.services_wind_3_content_1 input {
+  margin-left: 1vw;
+  width: min-content;
+  font-size: 3vw;
+  line-height: 3.2vw;
+}
+.services_wind_3_content_2_1 {
+  width: 35%;
+  height: auto;
+}
+.services_wind_3_content_2_2 {
+  width: 20%;
+  height: auto;
+}
+.services_wind_3_content_2_3 {
+  width: 15%;
+  height: auto;
+}
+.services_wind_3_content_2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 1vw;
+}
+.services_wind_3_concept_2 button {
+  width: 30%;
+}
+
+#sendApplication {
+  width: 20% !important;
+}
+
+@media all and (min-width: 700px) and (max-width: 1025px) and (orientation: portrait) {
+  #wind-ser-1 {
+    height: 60% !important;
+  }
+}
