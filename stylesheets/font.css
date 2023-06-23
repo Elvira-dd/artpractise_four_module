@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Pixeloid Mono";
+  src: url("../font/PixeloidMono.ttf") format(ttf);
+}
 h1 {
   font-size: 3vw;
   line-height: 3.2vw;
