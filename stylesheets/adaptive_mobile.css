@@ -11,6 +11,12 @@
     height: 100%;
     grid-area: M1;
   }
+  .goout_alert h1 {
+    font-size: 5vw;
+  }
+  .goout_alert {
+    width: 70vw;
+  }
   .unactive_index_icon_mob {
     background-color: #003501;
     border: 0.5vw solid #00e600;
