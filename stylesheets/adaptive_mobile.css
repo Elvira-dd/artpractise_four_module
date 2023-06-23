@@ -80,4 +80,83 @@
   .aboutus_wind_6_content_1 {
     width: 90%;
   }
+  .aboutus_wind_5_content_2 h3 {
+    margin-left: 1vw;
+  }
+  .open_link_icon {
+    width: 12vw;
+    height: 12vw;
+  }
+
+  .wind {
+    padding: 3vw;
+    outline: 0.5vw solid #00e600;
+    outline-offset: -0.5vw;
+  }
+  .aboutus_wind_3_content_1_1 {
+    height: 70%;
+  }
+  .aboutus_wind_7_content {
+    margin-top: 5%;
+  }
+  .navigation_container {
+    grid-template-areas:
+      "M1 M2 M2"
+      "N1 N1 N1 "
+      "N1 N1 N1 "
+      "N1 N1 N1 "
+      "N4 N4 N4"
+      "N2 N5 N5"
+      "N2 N5 N5"
+      "N2 N5 N5";
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .navig_wind_3 {
+    display: none;
+  }
+  .navig_wind_4_content_1 {
+    margin-bottom: 2%;
+  }
+  .navig_wind_4_content_2 {
+    margin-bottom: 3%;
+  }
+  #button_poster_pop_up {
+    float: right;
+  }
+  .services_container {
+    grid-template-areas:
+      "M1 M2 M2"
+      "S1 S1 S1 "
+      "S1 S1 S1 "
+      "S2 S2 S2 "
+      "S2 S2 S2 "
+      "S3 S3 S3 "
+      "S3 S3 S3 "
+      "S3 S3 S3 ";
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .services_wind_3_content_1 input {
+    font-size: 7vw;
+    line-height: 7.2vw;
+  }
+  .services_wind_3_content_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 4%;
+  }
+  .services_wind_3_content_2 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .services_wind_3_content_2 div {
+    width: 80%;
+    margin-bottom: 6%;
+  }
+  .services_wind_3_content_2 input {
+    font-size: 4vw;
+    line-height: 4.2vw;
+  }
 }

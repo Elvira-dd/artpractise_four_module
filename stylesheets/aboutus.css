@@ -62,7 +62,7 @@
   border-left: 0.5vw solid #00e600;
   border-bottom: 0.5vw solid #00e600;
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 .aboutus_wind_5_content_1 {
   width: 50%;
@@ -113,10 +113,11 @@
 }
 .aboutus_wind_6_content_2_1 {
   border: 0.5vw dashed #00e600;
-  width: 100%;
+  width: 80%;
   height: fit-content;
   box-sizing: border-box;
   padding: 0.5vw;
+  margin-left: 2vw;
 }
 .aboutus_wind_6_content_2_1 p {
   line-height: 1vw;
@@ -183,4 +184,8 @@
   width: 4vw;
   height: 4vw;
   float: right;
+}
+.aboutus_wind_6_content_2 h3 {
+  margin-top: 1vw;
+  margin-left: 2vw;
 }

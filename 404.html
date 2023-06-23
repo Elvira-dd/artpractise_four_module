@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheets/style.css" />
+    <title>Вы зашли куда-то не туда</title>
+  </head>
+  <body style="background-color: #350000">
+    <div class="bad_signal_top_img"></div>
+    <div class="top_lines">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+
+    <p
+      style="
+        position: absolute;
+        margin: 2vw;
+        color: #e60000;
+        text-shadow: 0 0 12px #e60000;
+        opacity: 0.7;
+      "
+    >
+      System.InvalidOperationException: <br />Cannot check database exists --->
+      <br />
+      <br />
+      System.Data.SqlClient.SqlException: Ошибка входа пользователя "IIS <br />
+      <br />
+      APPPOOL\Elma3-Standart". Unchecked runtime.lastError: The message port
+      <br />
+      closed before a response was received. function <br />
+      generateFibonacciSequence(n) { const sequence = [0, 1]; <br />
+      for (let i = 2; i < n; i++) <br />
+      { sequence[i] = sequence[i - 1] + sequence[i - 2]; } <br />return
+      sequence; } <br />
+      <br />
+      function findMaxNumber(array) { let max = array[0]; <br />
+      for (let i = 1; <br />
+      i < array.length; i++) { if (array[i] > max) { max = array[i]; } <br />
+      <br />
+      return max; } function isPalindrome(word) { const reversedWord =
+      word.split("").reverse().join(""); return word === reversedWord; } <br />
+      <br />function getRandomNumber(min, max) { <br />
+      return Math.floor(Math.random() * (max - min + 1)) + min; } <br /><br />
+      <br />const currentDate = new Date(); <br />const year =
+      currentDate.getFullYear(); <br />const month = currentDate.getMonth() + 1;
+      <br />const day = currentDate.getDate(); <br />const formattedDate =
+      `${day}/${month}/${year}`; <br /><br />
+      <br />console.log("Результат сложения: " + calculateSum(10, 5));
+      <br />console.log("Последовательность Фибоначчи: " +
+      <br />generateFibonacciSequence(10)); <br />console.log("Максимальное
+      число в массиве: " + findMaxNumber([5, 2, 9, 1, 10, 7]));
+      <br />console.log("Слово 'radar' является палиндромом: " +
+      isPalindrome("radar")); <br />console.log("Случайное число от 1 до 100: "
+      + getRandomNumber(1, 100)); console.log("Текущая дата: " + formattedDate);
+    </p>
+    <div
+      style="
+        display: flex;
+        align-items: center;
+        height: 100%;
+        justify-content: center;
+        flex-direction: column;
+        z-index: 10000;
+        position: relative;
+      "
+    >
+      <h1
+        style="font-size: 23vw; color: #e60000; text-shadow: 0 0 12px #e60000"
+      >
+        404
+      </h1>
+      <h1
+        style="
+          margin-top: 10vw;
+          color: #e60000;
+          text-shadow: 0 0 12px #e60000;
+          text-align: center;
+        "
+      >
+        Такой страницы не существует <br />
+        Попробуйте начать с
+        <a onclick="javascript:history.back(); return false;">
+          <h1
+            style="
+              text-decoration: underline;
+              color: #e60000;
+              text-shadow: 0 0 12px #e60000;
+            "
+          >
+            главной страницы
+          </h1></a
+        >
+      </h1>
+    </div>
+  </body>
+</html>
