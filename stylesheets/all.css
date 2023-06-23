@@ -9,6 +9,16 @@
   z-index: 20000;
   pointer-events: none;
 }
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 500;
+  display: none;
+}
 body {
   margin: 0;
   width: 100vw;
@@ -51,12 +61,13 @@ body {
   outline-offset: -0.5vw;
   box-shadow: inset 0 0 12px #00e600;
   background-color: #003501;
-  z-index: 100;
+  z-index: 1000;
 }
 .pop_up_content {
   box-sizing: border-box;
   padding: 2vh 2vw;
 }
+
 .pop_up_name {
   border-bottom: 0.5vw solid #00e600;
   display: flex;
@@ -135,6 +146,9 @@ input[type="text"] {
   color: #009f00;
   opacity: 1;
 }
+.unactive_index_icon_mob {
+  display: none;
+}
 
 :-ms-input-placeholder {
   color: #009f00;
@@ -187,6 +201,12 @@ button:active {
 button:hover {
   cursor: url("../images/mouse_active.png"), auto;
 }
+#goout_admin {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
 .goout_page {
   width: 100vw;
   height: 100vh;
@@ -194,7 +214,7 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  display: none;
+  z-index: 1000;
 }
 .goout_alert {
   height: min-content;
@@ -208,6 +228,9 @@ button:hover {
 .goout_buttons {
   display: flex;
   margin-top: 3vw;
+}
+.goout_buttons a {
+  width: 100%;
 }
 .navig_pop_up_2 {
   height: 40vh;
@@ -227,4 +250,8 @@ button:hover {
 }
 .index_icon_mob {
   display: none;
+}
+.pop_up {
+  display: none;
+  transition: z-index 0.3s;
 }

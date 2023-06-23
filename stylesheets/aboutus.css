@@ -158,6 +158,8 @@
   display: none;
   width: 50vw;
   height: 50vh;
+  margin-left: 28vw;
+  margin-top: 12vh;
 }
 .about_pop_up_1_content_1 {
   border-right: 0.5vw solid #00e600;

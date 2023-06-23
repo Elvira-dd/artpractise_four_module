@@ -9,6 +9,12 @@
     "N1 N1 N1 N4 N4 N5 N5 N5"
     "N1 N1 N1 N4 N4 N5 N5 N5";
 }
+#goout_navig_space {
+  display: none;
+}
+#goout_navig_book {
+  display: none;
+}
 .navig_wind_1 {
   grid-area: N1;
   border-top: 0.5vw solid #00e600;
