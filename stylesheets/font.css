@@ -2,6 +2,8 @@
   font-family: "Pixeloid Mono";
   src: url("../font/PixeloidMono.ttf") format(ttf),
     url("../font/PixeloidMono.woff") format(woff);
+  font-weight: normal;
+  font-style: normal;
 }
 h1 {
   font-size: 3vw;
